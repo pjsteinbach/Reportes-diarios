@@ -82,11 +82,14 @@ body form div a:hover{
     body form{
         width: 90%;
         height: 90vh;
+        gap: 6px;
     }
 
     body form div{
         flex-direction: column;
-        height: 100%;
+        margin-top: 16px;
+        height: 72px;
+        gap: 4px;
     }
-  }
+}
 
