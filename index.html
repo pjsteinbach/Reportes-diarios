@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Reporte diario</title>
+</head>
+<body>
+    <form class="form-container">
+        <h1 class="title">Reportes diarios</h1>
+        <div class="agent-container">
+            <label for="agent">Agente: </label>
+            <select id="agent" name="agent" required>
+                <option value="" disabled selected>Seleccione una colaborador</option>
+                <option value="Camilo Smittenaar">Camilo Smittenaar</option>
+                <option value="Gustavo Gómez">Gustavo Gómez</option>
+                <option value="Iván Orellana">Iván Orellana</option>
+                <option value="Javier Chioccariello">Javier Chioccariello</option>
+                <option value="Juan Barroca">Juan Barroca</option>
+                <option value="Julia Palacio">Julia Palacio</option>
+                <option value="Leonardo Ruiz">Leonardo Ruiz</option>
+                <option value="Mario Miño">Mario Miño</option>
+                <option value="Mayra Guevara">Mayra Guevara</option>
+                <option value="Pablo Steinbach">Pablo Steinbach</option>
+                <option value="Silvia Guitián">Silvia Guitián</option>
+                <option value="Teresa Colman">Teresa Colman</option>
+                <option value="Victor Banegas">Victor Banegas</option>
+            </select>
+        </div>
+        <div class="entity-container">
+            <label for="entity">Entidad: </label>
+            <select id="entity" name="entity" required>
+                <option value="">Seleccione una Entidad</option>
+            </select>
+        </div>
+        <div class="form_update">
+            <p>Formulario de carga:</p>
+            <a id="form_update__link" href="http://" target="_blank">Click para acceder al formulario</a>
+        </div>
+        <div class="form_report">
+            <p>Planilla de reportes:</p>
+            <a id="form_report__link" href="http://" target="_blank">Click para acceder al reporte</a>
+        </div>
+    </form>   
+
+    <script src="code.js"></script>
+</body>
+</html>
