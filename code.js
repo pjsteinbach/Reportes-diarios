@@ -271,7 +271,7 @@ function actualizarEntidad() {
             "Cooperativa de Trabajo Che Guevara Ltda.",
             "Cooperativa de Trabajo La Plebeya Ltda.",
             "Cooperativa de Trabajo Liderazgo Ltda.",
-            "Cooperativa de Trabajo Lu.tra Ltda..",
+            "Cooperativa de Trabajo Lu.tra Ltda.",
             "Cooperativa de Trabajo Nuevo Cambio Ltda.",
             "Cooperativa de Trabajo Proyectando Juntos Ltda."];
     } 
