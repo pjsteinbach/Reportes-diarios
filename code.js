@@ -1,5 +1,5 @@
 document.getElementById('entity').addEventListener('click', actualizarObra);
-document.getElementById('agent').addEventListener('click', actualizarEntidad);
+document.getElementById('agent').addEventListener('change', actualizarEntidad);
 
 function actualizarObra() {
     var entity = document.getElementById("entity").value;
