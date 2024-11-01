@@ -1,10 +1,13 @@
-document.getElementById('entity').addEventListener('click', actualizarObra);
+document.getElementById('entity').addEventListener('change', actualizarObra);
 document.getElementById('agent').addEventListener('change', actualizarEntidad);
 
 function actualizarObra() {
     var entity = document.getElementById("entity").value;
     var formLink = document.getElementById("form_update__link");
     var reportLink = document.getElementById("form_report__link");
+
+    formLink.innerHTML = "Click para acceder al formulario";
+    reportLink.innerHTML = "Click para acceder al reporte";
 
     switch (entity) {
         case "Asociación Civil La Fábrica Emprendimiento Productivo y Cultural":
@@ -179,7 +182,7 @@ function actualizarObra() {
             formLink.href = "https://forms.gle/MaHg51mYf87yxuUe6";
             reportLink.href = "https://docs.google.com/spreadsheets/d/1_GES0zqyBxxGupBK_9Ipq2v0VjTBw_BA-Wu6fi3UJVY/edit?usp=sharing";
             break;
-
+            
             default:
             console.error('Opción seleccionada no válida.');
     }    
@@ -193,6 +196,7 @@ function actualizarEntidad() {
 
     if (agent === "Camilo Smittenaar") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo 3 de Diciembre Ltda.",
             "Cooperativa de Trabajo Almagro Ltda.",
             "Cooperativa de Trabajo Amasando Sueños Ltda.",
@@ -202,6 +206,7 @@ function actualizarEntidad() {
             "Cooperativa de Trabajo Nuevo Cambio Ltda."];
     } else if (agent === "Gustavo Gómez") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo El Hornero Comunitario Ltda.",
             "Cooperativa de Trabajo La Morita Ltda.",
             "Cooperativa de Trabajo Las Colinas Ltda.",
@@ -210,6 +215,7 @@ function actualizarEntidad() {
             "Cooperativa de Trabajo Virgen del Luján Ltda."];
     } else if (agent === "Iván Orellana") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo Cielos Abiertos Ltda.",
             "Cooperativa de Trabajo Latinoamericana Ltda.",
             "Cooperativa de Trabajo Luchar es Crecer Ltda.",
@@ -217,12 +223,14 @@ function actualizarEntidad() {
             "Cooperativa de Trabajo Sueños Paceños Ltda."];
     } else if (agent === "Javier Chioccariello") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo Evita Compañera Ltda.",
             "Cooperativa de Trabajo La Morita Ltda.",
             "Cooperativa de Trabajo Las Colinas Ltda.",
             "Cooperativa de Trabajo Somos Nosotros Ltda."];
     } else if (agent === "Juan Barroca") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo 9 de Julio Ltda. (GSM)",
             "Cooperativa de Trabajo Che Guevara Ltda.",
             "Cooperativa de Trabajo Construyendo Patria Ltda.",
@@ -231,31 +239,37 @@ function actualizarEntidad() {
             "Cooperativa de Trabajo Tratado del Pilar 2 Ltda."];
     } else if (agent === "Julia Palacio") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo 9 de Julio Ltda. (LDZ)",
             "Cooperativa de Trabajo Cada día un Sueño Ltda.",
             "Cooperativa de Trabajo Presidente Perón Ltda."];
     } else if (agent === "Leonardo Ruiz") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo Fuerzas del Alma Ltda.",
             "Cooperativa de Trabajo La Gaviota Ltda.",
             "Cooperativa de Trabajo Los Horneros Ltda."];
     } else if (agent === "Mario Miño") {
         var opciones = [
+            "Seleccione una entidad",
             "Asociación Civil La Fábrica Emprendimiento Productivo y Cultural",
             "Cooperativa de Trabajo Evita 4 Ltda.",
             "Cooperativa de Trabajo Néstor Kirchner Ltda.",
             "Cooperativa de Trabajo Nuevos Horizontes Ltda."];
     } else if (agent === "Mayra Guevara") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo Ayelén Ltda.",
             "Cooperativa de Trabajo El Hornero Comunitario Ltda.",
             "Cooperativa de Trabajo Mi Cielo Ltda."];
     } else if (agent === "Pablo Steinbach") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo El Laurel Ltda.",
             "Cooperativa de Trabajo Nuevos Horizontes Ltda."];
     } else if (agent === "Silvia Guitián") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo El Ombú Ltda.",
             "Cooperativa de Trabajo Evita Compañera Ltda.",
             "Cooperativa de Trabajo Fuerzas del Alma Ltda.",
@@ -263,11 +277,13 @@ function actualizarEntidad() {
             "Cooperativa de Trabajo Pacha Limpia Ltda."];
     } else if (agent === "Teresa Colman") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo Cada día un Sueño Ltda.",
             "Cooperativa de Trabajo Fuerzas del Alma Ltda.",
             "Cooperativa de Trabajo La Gaviota Ltda."];
     } else if (agent === "Victor Banegas") {
         var opciones = [
+            "Seleccione una entidad",
             "Cooperativa de Trabajo Che Guevara Ltda.",
             "Cooperativa de Trabajo La Plebeya Ltda.",
             "Cooperativa de Trabajo Liderazgo Ltda.",
