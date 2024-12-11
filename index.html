@@ -12,9 +12,9 @@
 </head>
 <body>
     <form class="form-container">
-        <h1 class="title">Reportes diarios</h1>
+        <h1 class="title no-select">Reportes diarios</h1>
         <div class="agent-container">
-            <label for="agent">Agente: </label>
+            <label class="no-select" for="agent">Agente: </label>
             <select id="agent" name="agent" required>
                 <option value="" disabled selected>Seleccione una colaborador</option>
                 <option value="Camilo Smittenaar">Camilo Smittenaar</option>
@@ -32,21 +32,54 @@
                 <option value="Victor Banegas">Victor Banegas</option>
             </select>
         </div>
-        <div class="entity-container">
-            <label for="entity">Entidad: </label>
-            <select id="entity" name="entity" required>
-                <option value="" disabled selected>Seleccione una entidad</option>
+        <div class="active-work-container">
+            <label class="no-select" for="active-work">Obra: </label>
+            <select id="active-work" name="active-work" required>
+                <option value="" disabled selected>Seleccione una obra</option>
             </select>
         </div>
         <div class="form_update">
-            <p>Formulario de carga:</p>
+            <p class="no-select">Formulario de carga:</p>
             <a id="form_update__link" href="http://" target="_blank"></a>
         </div>
         <div class="form_report">
-            <p>Planilla de reportes:</p>
+            <p class="no-select">Planilla de reportes | Partes semanales:</p>
             <a id="form_report__link" href="http://" target="_blank"></a>
         </div>
-    </form>   
+    </form>
+    <section class="monthly-part">
+        <div class="monthly-part__header">
+            <h3 class="no-select">Parte mensual</h3>
+            <div class="header__month">
+                <label class="no-select" for="month">Mes: </label>
+                <select id="month" name="month" required>
+                    <option value="" disabled selected>Seleccione un mes</option>
+                    <option value="enero">enero</option>
+                    <option value="febrero">febrero</option>
+                    <option value="marzo">marzo</option>
+                    <option value="abril">abril</option>
+                    <option value="mayo">mayo</option>
+                    <option value="junio">junio</option>
+                    <option value="julio">julio</option>
+                    <option value="agosto">agosto</option>
+                    <option value="septiembre">septiembre</option>
+                    <option value="octubre">octubre</option>
+                    <option value="noviembre">noviembre</option>
+                    <option value="diciembre">diciembre</option>
+                </select>
+            </div>
+        </div>
+        <div class="if-content">
+            <div class="if-content__reference">
+                <h4 class="if-content__reference-tittle no-select">REFERENCIA:</h4>
+                <P id="reference-paragraph">seleccionar obra y mes</P>
+            </div>
+            <div class="if-content__content">
+                <h4 class="if-content__content-tittle no-select">CONTENIDO:</h4>
+                <P id="content-paragraph">seleccionar obra y mes</P>
+            </div>
+        </div> 
+    </section>   
 
     <script src="code.js"></script>
 </body>
