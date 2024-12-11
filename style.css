@@ -22,8 +22,9 @@ body{
     color: var(--dark-color)
 }
 
-body form{
-    width: 600px;
+body form,
+.monthly-part{
+    width: 880px;
     height: 100%;
     border-radius: 4px;
     padding: 24px;
@@ -50,7 +51,8 @@ body form div{
     gap: 4px;
 }
 
-body form div select{
+body form div select,
+#month{
     display: block;
     padding-bottom: 4px;
     width: 100%;
@@ -63,10 +65,9 @@ body form div select{
     cursor: pointer;
 }
 
-body form div p{
-    width: 240px;
+.no-select{
+    user-select: none;
 }
-
 body form div a{
     width: 100%;
     color: var(--primary-color);
@@ -77,6 +78,41 @@ body form div select:hover,
 body form div a:hover{
     background-color: rgba(0,0,0,0.1);
 }
+
+.monthly-part__header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__month{
+    display: flex;
+    flex-direction: row;
+}
+
+#month{
+    width: 112px;
+}
+
+.if-content{
+    width: 100%;
+    padding: 8px;
+    opacity: .9;
+}
+
+.if-content div{
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.if-content div p{
+    color: var(--primary-color)
+}
+
 
 @media (max-width: 721px) {
     body form{
