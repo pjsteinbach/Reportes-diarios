@@ -23,8 +23,7 @@ body{
     color: var(--dark-color)
 }
 
-body form,
-.monthly-part{
+body form{
     width: var(--width);
     height: 100%;
     border-radius: 4px;
@@ -96,25 +95,77 @@ body form div select,
 }
 
 .form_update:hover,
-.form_report:hover{
+.form_report:hover,
+.monthly-part__header div:hover{
     filter: brightness(1.2) hue-rotate(-8deg);
     box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
-}
-
-
-.no-select{
-    user-select: none;
 }
 
 body form div select:hover{
     background-color: rgba(0,0,0,0.1);
 }
 
-.monthly-part__header{
-    width: 100%;
+.monthly-part{
+    width: var(--width);
+    height: 100%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.monthly-part__tittle label{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.monthly-part__tittle span{
+    font-size: 2rem;
+}
+
+#arrow_up,
+#monthly-cb,
+#monthly-part__container{
+    display: none;
+}
+
+#monthly-part__container{
+    border: 1px solid var(--secondary-color);
+}
+
+.monthly-part__header{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 4px;
+    
+}
+
+.monthly-part__header div{
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    padding: 12px;
+    color: var(--light-color);
+}
+
+.monthly-part__header div a{
+    position: relative;
+    text-decoration: none;
+    color: var(--dark-color);
+    font-size: .9rem;
+    text-align: center;
+    color: var(--light-color);
+}
+
+.monthly-part__header div a span{
+    position: absolute;
+    left: -20px;
+    font-size: 1.2rem;
 }
 
 .header__month{
@@ -124,6 +175,13 @@ body form div select:hover{
 
 #month{
     width: 112px;
+    color: var(--light-color);
+    font-size: 1rem;
+}
+
+#month option{
+    
+    color: var(--dark-color);
 }
 
 .if-content{
@@ -144,6 +202,9 @@ body form div select:hover{
     color: var(--primary-color)
 }
 
+.no-select{
+    user-select: none;
+}
 
 @media (max-width: 721px) {
     body form{
