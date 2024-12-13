@@ -19,7 +19,8 @@ function actualizarObra() {
     var contentParagraph = document.getElementById('content-paragraph');
 
     var month = document.getElementById('month').value;
-    
+
+
     switch (activeWork) {
         case "Almirante Brown (Asociación Civil La Fábrica) - Saneamiento, limpieza y mantenimiento del Arroyo San Francisco aguas abajo":
             formLink.href = "https://forms.gle/aTcvy13Ci5vTVP127";
@@ -1042,5 +1043,26 @@ function actualizarActiveWork() {
         option.value = opciones[i];
         option.text = opciones[i];
         entity.add(option);
+    }
+}
+
+
+document.getElementById('monthly-cb').addEventListener('click', showMonthlySection);
+
+function showMonthlySection(){
+    var monthlyCB = document.getElementById('monthly-cb').checked;
+    var arrowDown = document.getElementById('arrow_down');
+    var arrowUp = document.getElementById('arrow_up');
+    var monthlyPartContainer = document.getElementById('monthly-part__container');
+
+    if (monthlyCB == true){
+        arrowDown.style.display = "none";
+        arrowUp.style.display = "inline-block"
+        monthlyPartContainer.style.display = "inline-block"
+    } else{
+        arrowDown.style.display = "inline-block";
+        arrowUp.style.display = "none"
+        monthlyPartContainer.style.display = "none"
+
     }
 }
