@@ -19,10 +19,7 @@ function actualizarObra() {
     var contentParagraph = document.getElementById('content-paragraph');
 
     var month = document.getElementById('month').value;
-
-    formLink.innerHTML = "Click para acceder al formulario";
-    reportLink.innerHTML = "Click para acceder al reporte";
-
+    
     switch (activeWork) {
         case "Almirante Brown (Asociación Civil La Fábrica) - Saneamiento, limpieza y mantenimiento del Arroyo San Francisco aguas abajo":
             formLink.href = "https://forms.gle/aTcvy13Ci5vTVP127";
