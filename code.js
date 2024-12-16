@@ -9,17 +9,17 @@ window.addEventListener('load', function() {
 document.getElementById('active-work').addEventListener('change', actualizarObra);
 document.getElementById('agent').addEventListener('change', actualizarActiveWork);
 document.getElementById('month').addEventListener('change', actualizarObra);
+document.getElementById('copy-reference').addEventListener('click', showCopyCompleteReference);
+document.getElementById('copy-content').addEventListener('click', showCopyCompleteContent);
 
 function actualizarObra() {
     var activeWork = document.getElementById("active-work").value;
     var formLink = document.getElementById("form_update__link");
     var reportLink = document.getElementById("form_report__link");
-
     var referenceParagraph = document.getElementById('reference-paragraph');
     var contentParagraph = document.getElementById('content-paragraph');
-
     var month = document.getElementById('month').value;
-
+    var copyIcon = document.querySelectorAll('.copy-icon');
 
     switch (activeWork) {
         case "Almirante Brown (Asociación Civil La Fábrica) - Saneamiento, limpieza y mantenimiento del Arroyo San Francisco aguas abajo":
@@ -892,8 +892,9 @@ function actualizarObra() {
     }
 
     referenceParagraph.innerHTML = `PARTE MENSUAL - ${month.toUpperCase()} 2024 - ${resumeEntity.toUpperCase()} - ${resumeWork.toUpperCase()}`;
-    contentParagraph.innerHTML = `Se deja constancia que se han realizado los registros de los reportes diarios suministrados por la ${entity}, perteneciente a la obra con denominación: ${work}, en el municipio de ${municipality}, correspondiente al mes de ${month} de 2024.<br>Se encuentran embebidos los partes semanales.`;    
+    contentParagraph.innerHTML = `Se deja constancia que se han realizado los registros de los reportes diarios suministrados por la ${entity}, perteneciente a la obra con denominación: ${work}, en el municipio de ${municipality}, correspondiente al mes de ${month} de 2024.<br>Se encuentran embebidos los partes semanales.`;
 
+    copyIcon.forEach(function(icon) { icon.style.display = 'block'; });
 }
 
 function actualizarActiveWork() {
@@ -1046,7 +1047,6 @@ function actualizarActiveWork() {
     }
 }
 
-
 document.getElementById('monthly-cb').addEventListener('click', showMonthlySection);
 
 function showMonthlySection(){
@@ -1063,6 +1063,37 @@ function showMonthlySection(){
         arrowDown.style.display = "inline-block";
         arrowUp.style.display = "none"
         monthlyPartContainer.style.display = "none"
-
     }
 }
+
+function showCopyCompleteReference(){
+    var reference = document.getElementById('reference-paragraph').innerText;
+    navigator.clipboard.writeText(reference).then(function() {
+        const notification = document.getElementById("notification");
+        notification.innerHTML = "Referencia copiada";
+        notification.style.height = "36px";
+        notification.style.opacity = ".8";
+        setTimeout(function() {
+            notification.style.height = "0px";
+            notification.style.opacity = "0";
+        }, 1500);
+    }).catch(function(error) {
+        console.error("Error al copiar el texto: ", error);
+    });
+};
+
+function showCopyCompleteContent(){
+    var content = document.getElementById('content-paragraph').innerText;
+    navigator.clipboard.writeText(content).then(function() {
+        const notification = document.getElementById("notification");
+        notification.innerHTML = "Contenido copiado";
+        notification.style.height = "36px";
+        notification.style.opacity = ".8";
+        setTimeout(function() {
+            notification.style.height = "0px";
+            notification.style.opacity = "0";
+        }, 1500);
+    }).catch(function(error) {
+        console.error("Error al copiar el texto: ", error);
+    });
+};
