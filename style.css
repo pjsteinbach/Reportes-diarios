@@ -215,24 +215,12 @@ body form div select:hover{
     opacity: .8
 }
 
-.copy-element-container{
-    position: absolute;
-    bottom: 12px;
-    right: 12px;
-    width: 400px;
-    height: 36px;
-    border-radius: 2px;
-    background-color: var(--secondary-color);
-    opacity: .5;
-    z-index: 2;
-}
-
 #notification{
     position: absolute;
     bottom: -100px;
     left: calc(50% - 100px);
     width: 200px;
-    height: 36px;
+    height: 0px;
     padding: 8px;
     text-align: center;
     border-radius: 2px;
