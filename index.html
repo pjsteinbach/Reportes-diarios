@@ -40,76 +40,65 @@
             </select>
         </div>
     </form>
-    <section class="form-report-section">
-        <div class="form_update">
-            <a id="form_update__link" href="http://" target="_blank"> 
-                <img src="asset/ico/form.svg" alt="icono de formulario">
-                <p class="no-select">Formulario de carga</p>
-            </a>
-        </div>
-        <div class="form_report">
-            <a id="form_report__link" href="http://" target="_blank">
-                <img src="asset/ico/report.svg" alt="icono de planilla de reporte">
-                <p class="no-select">Planilla de reportes <br> Partes semanales</p>
-            </a>
-        </div>
+
+    <section class="grid-container">
+        <a id="diary-report" target="_blank"><img src="./asset/ico/form.svg" alt="formulario">Registro diario</a>
+        <a id="weekly-report" target="_blank"><img src="./asset/ico/report.svg" alt="tabla de reporte">Tabla de reporte</a>
+        <a id="monthly-report"><img src="./asset/ico/calendar.svg" alt="parte mensual">Parte mensual</a>
+        <a id="map"><img src="./asset/ico/maps.svg" alt="mapa de convenio">Mapa de convenio</a>
     </section>
+
     <section class="monthly-part">
-        <div class="monthly-part__tittle">            
-            <input type="checkbox" name="monthly-cb" id="monthly-cb">
-            <label for="monthly-cb">  
-                <h3 class="no-select">Parte mensual</h3>
-                <span id="arrow_up" class="material-symbols-outlined">keyboard_arrow_up</span>
-                <span id="arrow_down" class="material-symbols-outlined">keyboard_arrow_down</span>
-            </label>
-        </div>
-        <div id="monthly-part__container">
-            <div class="monthly-part__header">
-                <div class="header__month">
-                    <label class="no-select" for="month">Mes: </label>
-                    <select id="month" name="month" required>
-                        <option value="" disabled selected>Seleccione un mes</option>
-                        <option value="enero">enero</option>
-                        <option value="febrero">febrero</option>
-                        <option value="marzo">marzo</option>
-                        <option value="abril">abril</option>
-                        <option value="mayo">mayo</option>
-                        <option value="junio">junio</option>
-                        <option value="julio">julio</option>
-                        <option value="agosto">agosto</option>
-                        <option value="septiembre">septiembre</option>
-                        <option value="octubre">octubre</option>
-                        <option value="noviembre">noviembre</option>
-                        <option value="diciembre">diciembre</option>
-                    </select>
-                </div>
-                <div class="header__gdeba-link">
-                    <a id="gdeba-link" href="https://cas.gdeba.gba.gob.ar/acceso/login/" target="_blank">
-                        <span class="material-symbols-outlined">share_windows</span>  Ir a GDEBA
-                    </a>
-                </div>
-                <div class="header__gsheet-link">
-                    <a id="gsheet-link" href="https://docs.google.com/spreadsheets/d/1lM5GT1YUAdyf784HnpW0nbRI2A2PyV_f/edit?gid=106115306#gid=106115306" target="_blank">
-                        <span class="material-symbols-outlined">share_windows</span>  Ir a Planilla de registro
-                    </a>
-                </div>
+        <div class="monthy-part__header">
+            <div class="header__month">
+                <label class="no-select" for="month">Mes: </label>
+                <select id="month" name="month" required>
+                    <option value="" disabled selected>Seleccione un mes</option>
+                    <option value="enero">enero</option>
+                    <option value="febrero">febrero</option>
+                    <option value="marzo">marzo</option>
+                    <option value="abril">abril</option>
+                    <option value="mayo">mayo</option>
+                    <option value="junio">junio</option>
+                    <option value="julio">julio</option>
+                    <option value="agosto">agosto</option>
+                    <option value="septiembre">septiembre</option>
+                    <option value="octubre">octubre</option>
+                    <option value="noviembre">noviembre</option>
+                    <option value="diciembre">diciembre</option>
+                </select>
             </div>
-            <div class="if-content">
-                <div class="if-content__reference">
-                    <h4 class="if-content__reference-tittle no-select">REFERENCIA:</h4>
-                    <P id="reference-paragraph">seleccionar obra y mes</P>
-                    <span id="copy-reference" class="material-symbols-outlined copy-icon">content_copy</span>
-                </div>
-                <div class="if-content__content">
-                    <h4 class="if-content__content-tittle no-select">CONTENIDO:</h4>
-                    <P id="content-paragraph">seleccionar obra y mes</P>
-                    <span id="copy-content" class="material-symbols-outlined copy-icon">content_copy</span>
-                </div>
-            </div>
-            <div class="copy-element-container" id="notification">
-            </div> 
+            <a id="gdeba-link" href="https://cas.gdeba.gba.gob.ar/acceso/login/" target="_blank">
+                <span class="material-symbols-outlined">share_windows</span>Ir a GDEBA
+            </a>
+            <a id="gsheet-link" href="https://docs.google.com/spreadsheets/d/1lM5GT1YUAdyf784HnpW0nbRI2A2PyV_f/edit?gid=106115306#gid=106115306" target="_blank">
+                <span class="material-symbols-outlined">share_windows</span>Ir a Planilla
+            </a>
         </div>
-    </section>  
+        <div class="monthly-part__if-content">
+            <div class="if-content__reference">
+                <h4 class="if-content__reference-tittle no-select">REFERENCIA:</h4>
+                <P id="reference-paragraph">seleccionar obra y mes</P>
+                <span id="copy-reference" class="material-symbols-outlined copy-icon" alt="copiar referencia">content_copy
+                    <div class="copy-element-container" id="notificationR"></div> 
+                </span>
+            </div>
+            <div class="if-content__content">
+                <h4 class="if-content__content-tittle no-select">CONTENIDO:</h4>
+                <P id="content-paragraph">seleccionar obra y mes</P>
+                <span id="copy-content" class="material-symbols-outlined copy-icon" alt="copiar contenido">content_copy
+                    <div class="copy-element-container" id="notificationC"></div>
+                </span>
+                
+            </div>
+        </div>
+        <div class="close-icon" id="close-monthly-part"><span class="material-symbols-outlined">close</span></div>
+    </section>
+
+    <section class="map">
+        <iframe id="map-iframe" src="" frameborder="0"></iframe>
+        <div class="close-icon" id="close-map"><span class="material-symbols-outlined">close</span></div>
+    </section>
 
     <script src="code.js"></script>
 </body>
