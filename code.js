@@ -807,7 +807,7 @@ function actualizarObra() {
         case "Berazategui (Cooperativa de Trabajo Pacha Limpia Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo Pereyra y su afluente":
             formLink.href = "https://forms.gle/Thd2hm8LYqyShxLG7";
             reportLink.href = "https://docs.google.com/spreadsheets/d/12-YXrI3aG7K8tgq_l25NSuuw9je_9vuFihCwBCdvJik/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1t7RqMd5GP3Hlu4VjSCzrn5WtiX40C7I&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Pacha Limpia Ltda.";
             resumeEntity = "Pacha Limpia";
             municipality = "Berazategui";
@@ -817,7 +817,7 @@ function actualizarObra() {
         case "Berazategui (Cooperativa de Trabajo Pacha Limpia Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo San Juan y desagües de zona norte":
             formLink.href = "https://forms.gle/Thd2hm8LYqyShxLG7";
             reportLink.href = "https://docs.google.com/spreadsheets/d/12-YXrI3aG7K8tgq_l25NSuuw9je_9vuFihCwBCdvJik/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1hTXIufwxjce_AKlNAlPawe34Dvpsl_A&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Pacha Limpia Ltda.";
             resumeEntity = "Pacha Limpia";
             municipality = "Berazategui";
@@ -827,7 +827,7 @@ function actualizarObra() {
         case "Presidente Perón (Cooperativa de Trabajo Presidente Perón Ltda.) - Saneamiento, limpieza y mantenimiento del Canal 1, afluente Don Eduardo y zanjones del Barrio Panamérica":
             formLink.href = "https://forms.gle/KQbroNsDCdM8kY1a8";
             reportLink.href = "https://docs.google.com/spreadsheets/d/1hWaWFFk0VClhjZOnUDelQddMCG6U1yoa2c5Ii9RcDkk/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1ZkDRGSyt-KDPG2W4jMw6KG6jU8XqKdk&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Presidente Perón Ltda.";
             resumeEntity = "Presidente Perón";
             municipality = "Presidente Perón";
@@ -837,7 +837,7 @@ function actualizarObra() {
         case "Brandsen (Cooperativa de Trabajo Primero Brandsen Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo Gonzalez y Afluentes en la localidad de Jeppener":
             formLink.href = "https://forms.gle/UE4xpj33pK8rygsz6";
             reportLink.href = "https://docs.google.com/spreadsheets/d/1pmKK9vyO5bKHtLFTviLkgYAtoXqxvXB7CeFjNdQbJD8/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1osLaVEBNnWNyUqCdo3arernes10m7nI&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Primero Brandsen Ltda.";
             resumeEntity = "Primero Brandsen";
             municipality = "Brandsen";
@@ -857,7 +857,7 @@ function actualizarObra() {
         case "Tigre (Cooperativa de Trabajo Proyectando Juntos Ltda.) - Saneamiento, limpieza y mantenimiento del Canal Almirante Brown y Río Reconquista":
             formLink.href = "https://forms.gle/Hr35UasU7tUvoWzQ6";
             reportLink.href = "https://docs.google.com/spreadsheets/d/1SbJKUMc0pB9cpVv7doceQWWH5ZFciStbpZB87h3twUA/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1F6OZDLcSzFPLQl_MVRE8NCu7JoM6PJ0&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Proyectando Juntos Ltda.";
             resumeEntity = "Proyectando Juntos";
             municipality = "Tigre";
@@ -867,7 +867,7 @@ function actualizarObra() {
         case "Pilar (Cooperativa de Trabajo Rocío Ltda.) - Saneamiento, limpieza y mantenimiento de los Arroyos De Vicenzo y Pinazo":
             formLink.href = "https://forms.gle/iCpSEeyHRGhyKvED7";
             reportLink.href = "https://docs.google.com/spreadsheets/d/10jfn_2AsXKgS8o8em72YpLCwWYSWwnm8sVvye1KYSIY/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1nsHUdAdfjs2A7a1aTmp74ZRD3LSWaP8&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Rocío Ltda.";
             resumeEntity = "Rocío";
             municipality = "Pilar";
@@ -877,7 +877,7 @@ function actualizarObra() {
         case "Pilar (Cooperativa de Trabajo Rocío Ltda.) - Saneamiento, limpieza y mantenimiento de los Arroyos La Verde y Miriñay y su Afluente":
             formLink.href = "https://forms.gle/iCpSEeyHRGhyKvED7";
             reportLink.href = "https://docs.google.com/spreadsheets/d/10jfn_2AsXKgS8o8em72YpLCwWYSWwnm8sVvye1KYSIY/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=14LL2Xfh4gDxTpzWZw3o6s9EBlB9r2q8&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Rocío Ltda.";
             resumeEntity = "Rocío";
             municipality = "Pilar";
@@ -887,7 +887,7 @@ function actualizarObra() {
         case "Pilar (Cooperativa de Trabajo Rocío Ltda.) - Saneamiento, limpieza y mantenimiento de los canales Monterrey y Doña Iris":
             formLink.href = "https://forms.gle/iCpSEeyHRGhyKvED7";
             reportLink.href = "https://docs.google.com/spreadsheets/d/10jfn_2AsXKgS8o8em72YpLCwWYSWwnm8sVvye1KYSIY/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1Q6wiJ_z_YtubGhzo6Pq1iOuNoXjkvjA&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Rocío Ltda.";
             resumeEntity = "Rocío";
             municipality = "Pilar";
@@ -897,7 +897,7 @@ function actualizarObra() {
         case "San Fernando (Cooperativa de Trabajo Rocío Ltda.) - Saneamiento, limpieza y mantenimiento de los Canales paralelos a Ruta Nacional N°197 y Ramal Tigre":
             formLink.href = "https://forms.gle/iCpSEeyHRGhyKvED7";
             reportLink.href = "https://docs.google.com/spreadsheets/d/10jfn_2AsXKgS8o8em72YpLCwWYSWwnm8sVvye1KYSIY/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1tmM1IAfQh0H-9nP7VZVVsuZHrMyCL1c&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Rocío Ltda.";
             resumeEntity = "Rocío";
             municipality = "San Fernando";
@@ -907,7 +907,7 @@ function actualizarObra() {
         case "San Isidro (Cooperativa de Trabajo Rocío Ltda.) - Saneamiento, limpieza y mantenimiento de los Canales en San Isidro":
             formLink.href = "https://forms.gle/iCpSEeyHRGhyKvED7";
             reportLink.href = "https://docs.google.com/spreadsheets/d/10jfn_2AsXKgS8o8em72YpLCwWYSWwnm8sVvye1KYSIY/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=19KeNyCqe1lGwQHCXkWX3eQr4okKyZTc&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Rocío Ltda.";
             resumeEntity = "Rocío";
             municipality = "San Isidro";
@@ -917,7 +917,7 @@ function actualizarObra() {
         case "Brandsen (Cooperativa de Trabajo Somos Brandseños Ltda.) - Saneamiento, limpieza y mantenimiento del Canal Aleluya y Zanjón Alfonsina Storni":
             formLink.href = "https://forms.gle/2CBSAnnNwdaSFRi97";
             reportLink.href = "https://docs.google.com/spreadsheets/d/1GcYNM9_0LF_kWbeOaQ2bdh4zOssN3cFqWdHplkd3n-E/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=13kZC_JC0vThSKGZOOBWN2jMwxhrOjjM&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Somos Brandseños Ltda.";
             resumeEntity = "Somos Brandseños";
             municipality = "Brandsen";
@@ -927,7 +927,7 @@ function actualizarObra() {
         case "Brandsen (Cooperativa de Trabajo Somos Brandseños Ltda.) - Saneamiento, limpieza y mantenimiento del Canal Belgrano y del Zanjón Córdoba":
             formLink.href = "https://forms.gle/2CBSAnnNwdaSFRi97";
             reportLink.href = "https://docs.google.com/spreadsheets/d/1GcYNM9_0LF_kWbeOaQ2bdh4zOssN3cFqWdHplkd3n-E/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1L0dgqfP1OOYDBMhMXYoLVSaZWrhOgC4&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Somos Brandseños Ltda.";
             resumeEntity = "Somos Brandseños";
             municipality = "Brandsen";
@@ -937,7 +937,7 @@ function actualizarObra() {
         case "Malvinas Argentinas (Cooperativa de Trabajo Somos Nosotros Ltda.) - Saneamiento, limpieza y mantenimiento de los Arroyos Cuzco, Claro y Albuera":
             formLink.href = "https://forms.gle/2oy4ZbrB5ViHYj1n8";
             reportLink.href = "https://docs.google.com/spreadsheets/d/1E3c4zU7dQrz4w0FGIxdxPIP7Wj6wEjLkWB6TF940soM/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1dIuJ_BM8uzGr-Shs72tHQM8T8OuOL30&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Somos Nosotros Ltda.";
             resumeEntity = "Somos Nosotros";
             municipality = "Malvinas Argentinas";
@@ -967,7 +967,7 @@ function actualizarObra() {
         case "Pilar (Cooperativa de Trabajo Tratado del Pilar 2 Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo Toro":
             formLink.href = "https://forms.gle/hAVTjBmsjjeAXg299";
             reportLink.href = "https://docs.google.com/spreadsheets/d/1d9vLEHGG_ZXc2hHdpKM6HLCClW27R7yIMefpCCQjiJY/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1IU8myHYsrW1o0mRmocmlQbYuotSPu-A&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Tratado del Pilar 2 Ltda.";
             resumeEntity = "Tratado del Pilar 2";
             municipality = "Pilar";
@@ -977,7 +977,7 @@ function actualizarObra() {
         case "Ezeiza (Cooperativa de Trabajo Virgen del Luján Ltda.) - Saneamiento, limpieza y mantenimiento de los Arroyos del Gato y Aguirre y su afluente":
             formLink.href = "https://forms.gle/MaHg51mYf87yxuUe6";
             reportLink.href = "https://docs.google.com/spreadsheets/d/1_GES0zqyBxxGupBK_9Ipq2v0VjTBw_BA-Wu6fi3UJVY/edit?usp=sharing";
-            mapIframe.src = "";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1aDkWD4FjQpr6aZNve0JBiXvMDViZfCQ&ehbc=2E312F&noprof=1";
             entity = "Cooperativa de Trabajo Virgen del Luján Ltda.";
             resumeEntity = "Virgen del Luján";
             municipality = "Ezeiza";
@@ -1145,12 +1145,10 @@ function actualizarActiveWork() {
     }
 }
 
-
 var formContainer = document.getElementsByClassName('form-container')[0];
 var griContainer = document.getElementsByClassName('grid-container')[0];
 var monthlyPartContainer = document.getElementsByClassName('monthly-part')[0];
 var mapContainer = document.getElementsByClassName('map')[0];
-
 
 document.getElementById('monthly-report').addEventListener('click', showMonthlySection);
 document.getElementById('map').addEventListener('click', showMapSection);
