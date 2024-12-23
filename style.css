@@ -240,3 +240,18 @@ body form div select{
 a{
     text-decoration: none;
 }
+
+@media (max-width: 1201px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 769px) {
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
