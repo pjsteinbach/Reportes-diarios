@@ -27,7 +27,7 @@ function actualizarObra() {
         case "Almirante Brown (Asociación Civil La Fábrica) - Saneamiento, limpieza y mantenimiento del Arroyo San Francisco aguas abajo":
             formLink.href = "https://forms.gle/aTcvy13Ci5vTVP127";
             reportLink.href = "https://docs.google.com/spreadsheets/d/18b6QPSs3puitRkqEvS0AfXvq8n8snxadeTrUDZwKCWg/edit?usp=sharing";
-            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1g-iT_84k6LdDe-PWtPXssP8BVdoAQbo&ehbc=2E312F";
+            mapIframe.src = "https://www.google.com/maps/d/u/0/embed?mid=1g-iT_84k6LdDe-PWtPXssP8BVdoAQbo&ehbc=2E312F&noprof=1";
             entity = "Asociación Civil La Fábrica Emprendimeinto Productivo y Cultural";
             resumeEntity = "La Fábrica";
             municipality = "Almirante Brown";
@@ -989,8 +989,8 @@ function actualizarObra() {
             console.error('Opción seleccionada no válida.');
     }
 
-    referenceParagraph.innerHTML = `PARTE MENSUAL - ${month.toUpperCase()} 2025 - ${resumeEntity.toUpperCase()} - ${resumeWork.toUpperCase()}`;
-    contentParagraph.innerHTML = `Se deja constancia que se han realizado los registros de los reportes diarios suministrados por la ${entity}, perteneciente a la obra con denominación: ${work}, en el municipio de ${municipality}, correspondiente al mes de ${month} de 2025.<br>Se encuentran embebidos los partes semanales.`;
+    referenceParagraph.innerHTML = `PARTE MENSUAL - ${month.toUpperCase()} 2024 - ${resumeEntity.toUpperCase()} - ${resumeWork.toUpperCase()}`;
+    contentParagraph.innerHTML = `Se deja constancia que se han realizado los registros de los reportes diarios suministrados por la ${entity}, perteneciente a la obra con denominación: ${work}, en el municipio de ${municipality}, correspondiente al mes de ${month} de 2024.<br>Se encuentran embebidos los partes semanales.`;
 
     copyIcon.forEach(function(icon) { icon.style.display = 'block'; });
 }
@@ -1151,7 +1151,7 @@ var monthlyPartContainer = document.getElementsByClassName('monthly-part')[0];
 var mapContainer = document.getElementsByClassName('map')[0];
 
 document.getElementById('monthly-report').addEventListener('click', showMonthlySection);
-document.getElementById('map').addEventListener('click', showMapSection);
+document.getElementById('work-viewer').addEventListener('click', showMapSection);
 document.getElementById('close-monthly-part').addEventListener('click',showFormNGrid);
 document.getElementById('close-map').addEventListener('click',showFormNGrid);
 
