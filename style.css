@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root{
+    --dark-color: #181D26;
     --light-color: #ebf2f1;
+    --dark-gray: #4f5965;
+    --light-gray: #c8cacd;
     --primary-color: #098abd;
     --secondary-color: #6883A6;
-    --dark-color: #181D26;
-    --title-font: "Francois One", serif;
-    --body-font: "Scope One", serif;
+    --tittle-font: "Nunito", sans-serif;
+    --body-font: "Lexend", sans-serif;
     --width: 880px;
     --hover: brightness(1.2) hue-rotate(-6deg);
 }
@@ -53,6 +55,11 @@ body form div{
     gap: 4px;
 }
 
+body form div label{
+    font-family: var(--tittle-font);
+    font-size: 1rem;
+}
+
 body form div select{
     display: block;
     padding-bottom: 4px;
@@ -62,7 +69,8 @@ body form div select{
     border: none;
     color: var(--primary-color);
     font-family: var(--body-font);
-    font-size: .9rem;
+    font-weight: 400;
+    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -85,6 +93,7 @@ body form div select{
     border-radius: 4px;;
     background-color: var(--primary-color);
     color: var(--light-color);
+    font-family: var(--tittle-font);
     cursor: pointer;
 }
 
@@ -126,6 +135,9 @@ body form div select{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     gap: 4px;
+    font-family: var(--tittle-font);
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 .monthy-part__header a,
@@ -170,7 +182,6 @@ body form div select{
     color: var(--dark-color);
 }
 
-
 .monthly-part__if-content div{
     position: relative;
     padding: 12px;
@@ -183,6 +194,13 @@ body form div select{
     bottom: 4px;
     opacity: .8;
     cursor: pointer;
+}
+
+.if-content__reference-tittle,
+.if-content__content-tittle{
+    font-family: var(--tittle-font);
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 #notificationR,
