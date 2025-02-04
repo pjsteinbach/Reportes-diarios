@@ -217,8 +217,8 @@ body form div select{
 .map{
     display: none;
     position: relative;
-    width: var(--width);
-    height: 86vh;
+    width: 90vw;
+    height: 90vh;
     background-color: var(--secondary-color);
 }
 
