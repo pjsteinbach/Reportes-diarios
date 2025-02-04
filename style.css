@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Scope+One&display=swap');
+
 :root{
     --light-color: #ebf2f1;
     --primary-color: #098abd;
     --secondary-color: #6883A6;
     --dark-color: #181D26;
-    --tittle-font: "Poppins", sans-serif;
-    --body-font: "Poppins", sans-serif;
+    --title-font: "Francois One", serif;
+    --body-font: "Scope One", serif;
     --width: 880px;
     --hover: brightness(1.2) hue-rotate(-6deg);
 }
