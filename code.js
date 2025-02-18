@@ -1037,7 +1037,7 @@ function actualizarActiveWork() {
             "San Miguel (Cooperativa de Trabajo Latinoamericana Ltda.) - Saneamiento, limpieza y mantenimiento de los Canales Pascuala Cueto, Luis Viale y afluente del Arroyo los Berros",
             "San Miguel (Cooperativa de Trabajo Latinoamericana Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo Los Berros",
             "San Miguel (Cooperativa de Trabajo Luchar es Crecer Ltda.) - Saneamiento, limpieza y mantenimiento del margen noroeste del Río Reconquista"];
-    } else if (agent === "Javier Chioccariello") {
+    } else if (agent === "Valeria Figueroa") {
         var opciones = [
             "Seleccione una obra",
             "Esteban Echeverría (Cooperativa de Trabajo La Morita Ltda.) - Saneamiento, limpieza y mantenimiento de los Arroyos Medrano, El Triángulo, Ortega y Santa Catalina",
