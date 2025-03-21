@@ -1086,18 +1086,15 @@ function actualizarActiveWork() {
     } else if (agent === "Mayra Guevara") {
         var opciones = [
             "Seleccione una obra",
-            "Hurlingham (Cooperativa de Trabajo El Hornero Comunitario Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo Soto",
-            "Merlo (Cooperativa de Trabajo Mi Cielo Ltda.) - Saneamiento, limpieza y mantenimiento de los Arroyos Saladero, Granadero, y El Trébol",
-            "Merlo (Cooperativa de Trabajo Mi Cielo Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo Torres y afluentes",
-            "Moreno (Cooperativa de Trabajo Ayelén Ltda.) - Saneamiento, limpieza y mantenimiento de los Arroyos Villanueva y Los Perros y los Canales 25 de Mayo, Acoyte y Gálvez González"];
-    } else if (agent === "Pablo Steinbach") {
-        var opciones = [
-            "Seleccione una obra",
             "Chascomús (Cooperativa de Trabajo Nuevos Horizontes Ltda.) - Saneamiento, limpieza y mantenimiento del Afluente del Arroyo Valdez en zona norte",
             "Chascomús (Cooperativa de Trabajo Nuevos Horizontes Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo Los Toldos y afluente",
             "Chascomús (Cooperativa de Trabajo Nuevos Horizontes Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo San Felipe y costa de laguna",
             "General Pueyrredón (Cooperativa de Trabajo Nuevos Horizontes Ltda.) - Saneamiento, limpieza y mantenimiento de los Arroyos La Tapera y El Cardalito y el Canal de desagüe pluvial del barrio Nuevo Golf",
             "General Pueyrredón (Cooperativa de Trabajo Nuevos Horizontes Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo Corrientes y Afluentes",
+            "Hurlingham (Cooperativa de Trabajo El Hornero Comunitario Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo Soto",
+            "Merlo (Cooperativa de Trabajo Mi Cielo Ltda.) - Saneamiento, limpieza y mantenimiento de los Arroyos Saladero, Granadero, y El Trébol",
+            "Merlo (Cooperativa de Trabajo Mi Cielo Ltda.) - Saneamiento, limpieza y mantenimiento del Arroyo Torres y afluentes",
+            "Moreno (Cooperativa de Trabajo Ayelén Ltda.) - Saneamiento, limpieza y mantenimiento de los Arroyos Villanueva y Los Perros y los Canales 25 de Mayo, Acoyte y Gálvez González",
             "Tandil (Cooperativa de Trabajo El Laurel Ltda.) - Saneamiento, limpieza y mantenimiento de los Arroyos Langueyú, La Cascada y San Gabriel, Ramal H y áreas de regulación"];
     } else if (agent === "Silvia Guitián") {
         var opciones = [
